@@ -1,0 +1,25 @@
+{
+  "slug": "family-dentistry",
+  "name": "Family Dentistry",
+  "category": "PREVENTIVE",
+  "teaser": "Comprehensive dental care for every member of your family — from kids to adults, all in one welcoming office.",
+  "overview": [
+    "Pleitez Dental Corp is proud to be a family dental practice serving the Chatsworth community. We welcome patients of all ages — from a child's first dental visit to routine care for adults and seniors — all in a warm, comfortable environment.",
+    "Our doctors understand that every family member has unique dental needs and anxiety levels. We take the time to listen, explain, and make every visit as comfortable as possible, building lasting relationships with patients who have trusted us for over 13 years."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Comprehensive Exam", "body": "We start with a thorough examination for every patient, reviewing dental history, taking necessary X-rays, and identifying any areas of concern." },
+    { "step": 2, "title": "Personalized Treatment Plan", "body": "Based on your exam, we create a personalized plan tailored to your needs and goals — always explaining your options clearly and honestly." },
+    { "step": 3, "title": "Ongoing Preventive Care", "body": "We schedule regular cleanings and checkups to keep your whole family healthy, catching small issues before they become big (and costly) problems." }
+  ],
+  "faqs": [
+    { "question": "Do you see children?", "answer": "Yes! We welcome patients of all ages. Family dentistry at Pleitez Dental Corp means the whole family can be treated in one place, making dental care more convenient and consistent." },
+    { "question": "How often should my family come in for checkups?", "answer": "We recommend a dental exam and professional cleaning every 6 months for most patients. Some individuals may benefit from more frequent visits based on their oral health needs." },
+    { "question": "Do you offer bilingual services?", "answer": "Yes — we are proud to offer services in both English and Spanish (Se Habla Español) to better serve our diverse Chatsworth community." },
+    { "question": "Do you accept new patients?", "answer": "Absolutely! We are welcoming new patients and their families. Call us or book online to schedule your first visit." }
+  ],
+  "image": "/images/services/family-dentistry.webp",
+  "relatedSlugs": ["dental-implants", "cosmetic-dentistry", "preventive-care"],
+  "isInferred": false,
+  "isGenerated": false
+}

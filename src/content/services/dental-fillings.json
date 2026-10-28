@@ -1,0 +1,24 @@
+{
+  "slug": "dental-fillings",
+  "name": "Tooth-Colored Dental Fillings",
+  "category": "RESTORATIVE",
+  "teaser": "Natural-looking restorations that blend seamlessly with your smile.",
+  "overview": [
+    "When a cavity or minor tooth damage needs repair, a tooth-colored composite filling restores the tooth's structure and appearance in a single appointment. Unlike older amalgam (silver) fillings, composite fillings are matched to the shade of your natural tooth — making them virtually invisible.",
+    "The procedure is straightforward: the decay is removed, the area is cleaned, and the composite resin is bonded directly to the tooth. The result is a strong, comfortable restoration that looks and feels completely natural."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Examination & Numbing", "body": "We'll identify the affected area, discuss the restoration with you, and apply local anesthesia to keep you comfortable throughout." },
+    { "step": 2, "title": "Decay Removal & Bonding", "body": "The decayed portion of the tooth is gently removed, and the composite resin is carefully applied in layers and bonded to the tooth." },
+    { "step": 3, "title": "Shaping & Polish", "body": "The filling is shaped to match your natural bite, then polished for a smooth, natural finish — usually done in a single appointment." }
+  ],
+  "faqs": [
+    { "question": "How long do tooth-colored fillings last?", "answer": "Composite fillings typically last 7–15 years with proper care, though this varies based on the size of the filling, location, and individual habits." },
+    { "question": "Are tooth-colored fillings as strong as silver ones?", "answer": "Modern composite resin is very durable and suitable for most cavities. For very large restorations in high-pressure areas, your dentist will discuss the best material for your situation." },
+    { "question": "Will my tooth be sensitive after a filling?", "answer": "Some mild sensitivity to hot, cold, or pressure for a few days after a filling is normal. This usually resolves on its own. If sensitivity persists, let us know." }
+  ],
+  "image": "/images/services/dental-fillings.webp",
+  "relatedSlugs": ["general-cleanings", "root-canal-therapy", "cosmetic-dentistry"],
+  "isInferred": true,
+  "isGenerated": true
+}

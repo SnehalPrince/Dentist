@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "dental-implants-guide",
+    "title": "Are Dental Implants Right for You? A Complete Guide",
+    "category": "RESTORATIVE",
+    "excerpt": "Dental implants are one of the most effective ways to replace a missing tooth — but are they the right choice for you? At Pleitez Dental Corp we offer free consultations so you can get an honest answer.",
+    "date": "2025-05-01",
+    "image": "/images/blog/dental-implants.webp",
+    "isGenerated": false
+  },
+  {
+    "slug": "same-day-crowns-what-to-expect",
+    "title": "Same-Day Crowns: Everything You Need to Know",
+    "category": "RESTORATIVE",
+    "excerpt": "No temporaries, no second appointment. Learn how modern same-day crown technology lets you walk in with a damaged tooth and walk out with a permanent crown in just one visit.",
+    "date": "2025-04-15",
+    "image": "/images/blog/dental-implants.webp",
+    "isGenerated": false
+  },
+  {
+    "slug": "why-regular-dental-visits-matter",
+    "title": "Why Regular Dental Visits Matter More Than You Think",
+    "category": "PREVENTIVE",
+    "excerpt": "Skipping your 6-month checkup seems harmless — until it isn't. Here's what preventive dental care actually protects you from, and why Chatsworth families trust Pleitez Dental Corp for their routine care.",
+    "date": "2025-03-20",
+    "image": "/images/blog/family-oral-health.webp",
+    "isGenerated": false
+  },
+  {
+    "slug": "oral-health-tips-for-families",
+    "title": "Oral Health Tips for the Whole Family: From Kids to Adults",
+    "category": "PREVENTIVE",
+    "excerpt": "Great oral hygiene habits start early — here's how to build routines that keep every member of your family smiling healthy for life.",
+    "date": "2025-02-10",
+    "image": "/images/blog/family-oral-health.webp",
+    "isGenerated": false
+  }
+]

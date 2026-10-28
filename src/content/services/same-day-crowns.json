@@ -1,0 +1,25 @@
+{
+  "slug": "same-day-crowns",
+  "name": "Same-Day Crowns",
+  "category": "RESTORATIVE",
+  "teaser": "Get a custom, permanent crown in a single visit — no temporaries, no second appointment.",
+  "overview": [
+    "At Pleitez Dental Corp, we offer same-day crown technology so you can walk in with a damaged tooth and walk out with a permanent, natural-looking crown — all in one appointment. No impressions sent to an off-site lab, no waiting weeks with a temporary crown.",
+    "Same-day crowns are custom-milled to precisely fit your tooth using advanced digital scanning technology. The result is a crown that looks, feels, and functions just like your natural tooth — completed on your schedule."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Examination & Digital Scan", "body": "We examine the tooth, take a digital impression, and design your custom crown digitally — no messy traditional molds required." },
+    { "step": 2, "title": "Crown Milling", "body": "Your crown is precision-milled from a solid ceramic block right here in the office, matched to the shade and shape of your natural teeth." },
+    { "step": 3, "title": "Placement & Polish", "body": "We place and bond your permanent crown — adjusting the fit until it's perfect. You leave with a complete, lasting restoration the same day." }
+  ],
+  "faqs": [
+    { "question": "Are same-day crowns as good as traditional crowns?", "answer": "Yes — same-day ceramic crowns are durable, natural-looking, and long-lasting. They are made from the same high-quality porcelain as lab-fabricated crowns, with the added benefit of being completed in a single visit." },
+    { "question": "How long does a same-day crown appointment take?", "answer": "Most same-day crown appointments take approximately 1.5 to 2 hours from start to finish, including the examination, digital scan, milling, and placement." },
+    { "question": "Will my crown look natural?", "answer": "Absolutely. The crown is color-matched to your surrounding teeth so it blends in seamlessly. Most people won't even know you have a crown." },
+    { "question": "Is the procedure painful?", "answer": "No. Local anesthesia is used throughout the procedure so you stay comfortable. Any sensitivity after the appointment is mild and temporary." }
+  ],
+  "image": "/images/services/same-day-crowns.webp",
+  "relatedSlugs": ["dental-implants", "cosmetic-dentistry", "general-dentistry"],
+  "isInferred": false,
+  "isGenerated": false
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "orthodontics",
+  "name": "Orthodontics & Aligners",
+  "category": "ORTHODONTIC",
+  "teaser": "Straighter teeth, better health — modern options for all ages.",
+  "overview": [
+    "Orthodontic treatment isn't just about aesthetics — straighter teeth are also easier to clean, which means better long-term oral health. Whether you're a teenager or an adult, there are modern, discreet options available to help you achieve a well-aligned smile.",
+    "Clear aligner systems offer a nearly invisible alternative to traditional braces, allowing you to straighten your teeth without the look and maintenance of metal brackets. We'll discuss which option best suits your bite, lifestyle, and goals."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Orthodontic Consultation", "body": "We'll take X-rays and impressions (or digital scans) to assess your bite and alignment, and recommend the best treatment option for you." },
+    { "step": 2, "title": "Treatment Plan & Fitting", "body": "Your customized treatment plan is created and your aligners or braces are fitted. We'll walk you through care instructions and what to expect at each stage." },
+    { "step": 3, "title": "Progress Check-ins & Completion", "body": "Regular check-in appointments track your progress. At the end of treatment, you'll receive a retainer to maintain your new smile." }
+  ],
+  "faqs": [
+    { "question": "Am I too old for orthodontic treatment?", "answer": "Not at all — orthodontic treatment is effective at any age. Many adults successfully straighten their teeth with clear aligners without impacting their daily life." },
+    { "question": "How long does orthodontic treatment take?", "answer": "Treatment duration depends on the complexity of your case. Minor corrections may take 6–12 months; more significant alignment issues may take 18–24 months." },
+    { "question": "Do aligners hurt?", "answer": "Some pressure or mild discomfort is common when starting a new set of aligners, as your teeth are gently shifting. This typically subsides within 2–3 days." }
+  ],
+  "image": "/images/services/orthodontics.webp",
+  "relatedSlugs": ["cosmetic-dentistry", "teeth-whitening", "general-cleanings"],
+  "isInferred": true,
+  "isGenerated": true
+}

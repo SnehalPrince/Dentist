@@ -1,0 +1,29 @@
+[
+  {
+    "id": "longtime-patient",
+    "name": "Long-time Patient",
+    "meta": "February 2024 · Google",
+    "quote": "The Pleitez Dental Corp is a great and dynamic team. The oral care they have provided me with over the years has always been above and beyond. They listen to all dental concerns before, during, and after work is done. Appointments and follow ups are done in a timely manner. I highly recommend this practice — both doctors are good hearted and do their best in all work!",
+    "stars": 5,
+    "initials": "LP",
+    "isVerified": true
+  },
+  {
+    "id": "ronald-rodriguez",
+    "name": "Ronald Rodriguez",
+    "meta": "August 2023 · Google",
+    "quote": "Both Dr. Martha and Dr. Erik are AMAZING. They take care of you top notch and always ask how you're feeling throughout the procedure. They are very reasonable and you can truly tell they are in it for the joy of helping people. They make you feel at home and cared for — and that honestly has no price. Months later the results speak for themselves and I could not be happier.",
+    "stars": 5,
+    "initials": "RR",
+    "isVerified": true
+  },
+  {
+    "id": "13year-patient",
+    "name": "Verified Patient",
+    "meta": "January 2024 · Google",
+    "quote": "I definitely recommend Drs. Pleitez. I have been under their care for more than 13 years. They are so professional and very caring. The office is very clean and they are on top of hygiene. The entire staff are very friendly, and Gustavo the office manager is always very polite and helpful. Thank you Drs. Pleitez!",
+    "stars": 5,
+    "initials": "VP",
+    "isVerified": true
+  }
+]

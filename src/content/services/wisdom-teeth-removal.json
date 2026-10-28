@@ -1,0 +1,25 @@
+{
+  "slug": "wisdom-teeth-removal",
+  "name": "Wisdom Teeth Removal",
+  "category": "ORAL SURGERY",
+  "teaser": "Fast, efficient wisdom tooth extraction — patients consistently note our smooth, quick procedures.",
+  "overview": [
+    "Wisdom teeth — the third molars — often need removal when they become impacted, causing pain, crowding, or infection risk. Our team has extensive experience with wisdom tooth extractions, and patients frequently describe the procedure as faster and more comfortable than they expected.",
+    "Whether your wisdom teeth are fully erupted, partially erupted, or fully impacted, we take the time to explain your options and make sure you feel informed and at ease before we begin."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Consultation & X-rays", "body": "We'll take X-rays to assess the position of your wisdom teeth and determine the best extraction approach for your situation." },
+    { "step": 2, "title": "Comfortable Extraction", "body": "After applying local anesthesia to ensure you're comfortable, we perform the extraction efficiently — most patients are surprised by how quick the procedure is." },
+    { "step": 3, "title": "Recovery Guidance", "body": "We'll provide detailed aftercare instructions including diet recommendations, pain management tips, and follow-up scheduling to ensure smooth healing." }
+  ],
+  "faqs": [
+    { "question": "How do I know if my wisdom teeth need to be removed?", "answer": "Common signs include pain or pressure at the back of your mouth, swelling, difficulty opening your jaw, or food getting trapped around the tooth. An X-ray during your dental exam can tell us exactly what's going on." },
+    { "question": "Is wisdom tooth removal painful?", "answer": "The procedure itself is done under local anesthesia, so you shouldn't feel pain — just some pressure. Post-procedure discomfort is normal and typically managed well with over-the-counter pain relievers and cold compresses." },
+    { "question": "How long does recovery take?", "answer": "Most patients feel significantly better within 3–4 days. Full soft-tissue healing takes about two weeks. We'll give you a complete recovery guide at your appointment." },
+    { "question": "Can I eat before the procedure?", "answer": "For a routine extraction with local anesthesia, eating beforehand is generally fine. Your dentist will give you specific pre-procedure instructions at your consultation." }
+  ],
+  "image": "/images/services/wisdom-teeth-removal.webp",
+  "relatedSlugs": ["dental-implants", "root-canal-therapy", "general-cleanings"],
+  "isInferred": false,
+  "isGenerated": true
+}

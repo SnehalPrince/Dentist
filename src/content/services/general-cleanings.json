@@ -1,0 +1,25 @@
+{
+  "slug": "general-dentistry",
+  "name": "General Dentistry",
+  "category": "GENERAL",
+  "teaser": "Comprehensive everyday dental care — cleanings, exams, fillings, and everything your smile needs to stay healthy.",
+  "overview": [
+    "General dentistry is the foundation of good oral health. At Pleitez Dental Corp, our general dentistry services cover the full spectrum of everyday dental care — from routine exams and professional cleanings to fillings, extractions, and more.",
+    "Our team is known for being thorough, professional, and genuinely caring. We take the time to address your dental concerns before, during, and after every appointment — because we believe great dental care starts with great communication."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Thorough Examination", "body": "We perform a comprehensive oral exam including digital X-rays to evaluate the health of your teeth, gums, and jaw — catching any issues early." },
+    { "step": 2, "title": "Professional Cleaning", "body": "Our dental hygienists provide thorough professional cleanings that remove plaque and tartar buildup, polish teeth, and leave your mouth feeling fresh." },
+    { "step": 3, "title": "Treatment & Follow-up", "body": "If treatment is needed, we explain your options clearly, schedule your care, and follow up to make sure you're healing well and feeling great." }
+  ],
+  "faqs": [
+    { "question": "How often should I get a dental exam?", "answer": "We recommend a dental exam and cleaning every 6 months. Regular checkups help catch problems early, saving you time, discomfort, and money in the long run." },
+    { "question": "What if I have dental anxiety?", "answer": "You're not alone — and we understand. Our team is experienced at working with anxious patients. We'll go at your pace, explain everything, and make your comfort our priority." },
+    { "question": "Do you offer emergency dental care?", "answer": "Yes. If you're experiencing a dental emergency, call us at (818) 718-8433. We'll do our best to accommodate urgent situations as quickly as possible." },
+    { "question": "Do you accept dental insurance?", "answer": "Please call our office at (818) 718-8433 to confirm your specific insurance plan. We work with many major providers and are happy to help you understand your benefits." }
+  ],
+  "image": "/images/services/general-cleanings.webp",
+  "relatedSlugs": ["family-dentistry", "cosmetic-dentistry", "dental-implants"],
+  "isInferred": false,
+  "isGenerated": false
+}

@@ -1,0 +1,64 @@
+/* ============================================================
+   src/styles/animations.css
+   Topanga Dental Care — CSS Keyframe Animations
+   All wrapped in prefers-reduced-motion: no-preference
+   ============================================================ */
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.5; }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.96); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+
+  /* Process connector line draw */
+  @keyframes drawLine {
+    from { stroke-dashoffset: 100%; }
+    to   { stroke-dashoffset: 0%; }
+  }
+
+  /* Dot pulse for open status */
+  @keyframes dotPulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50%       { transform: scale(1.4); opacity: 0.7; }
+  }
+
+  .animate-spin    { animation: spin 1s linear infinite; }
+  .animate-pulse   { animation: pulse 2s ease-in-out infinite; }
+  .animate-fadeIn  { animation: fadeIn 0.4s var(--ease-default) both; }
+  .animate-slideUp { animation: slideUp 0.5s var(--ease-default) both; }
+  .animate-scaleIn { animation: scaleIn 0.5s var(--ease-default) both; }
+
+  .dot-pulse { animation: dotPulse 2s ease-in-out infinite; }
+}
+
+/* Static fallbacks for reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-spin,
+  .animate-pulse,
+  .animate-fadeIn,
+  .animate-slideUp,
+  .animate-scaleIn,
+  .dot-pulse {
+    animation: none;
+  }
+}

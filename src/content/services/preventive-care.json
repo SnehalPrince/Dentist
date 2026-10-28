@@ -1,0 +1,25 @@
+{
+  "slug": "preventive-care",
+  "name": "Preventive Care",
+  "category": "PREVENTIVE",
+  "teaser": "Protect your smile before problems start — cleanings, exams, and education to keep teeth healthy for life.",
+  "overview": [
+    "Prevention is the smartest investment you can make in your dental health. Regular preventive care at Pleitez Dental Corp helps you avoid painful problems, costly treatments, and unexpected dental emergencies down the road.",
+    "Our preventive services include professional cleanings, comprehensive exams, digital X-rays, oral cancer screenings, and personalized home care guidance. We believe an educated patient is a healthy patient — and our team takes the time to explain what they find and what it means for you."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Professional Cleaning", "body": "Our dental hygienists thoroughly remove plaque and tartar from areas that brushing and flossing alone can't reach, then polish your teeth to a smooth, clean finish." },
+    { "step": 2, "title": "Comprehensive Exam & X-Rays", "body": "Your dentist reviews your X-rays and performs a thorough oral exam — checking for cavities, gum disease, oral cancer signs, bite issues, and more." },
+    { "step": 3, "title": "Personalized Home Care Plan", "body": "We conclude with personalized advice on brushing technique, flossing, and products that are right for your specific oral health needs." }
+  ],
+  "faqs": [
+    { "question": "How often should I have a cleaning?", "answer": "Most patients benefit from a professional cleaning every 6 months. Patients with gum disease or other risk factors may need more frequent appointments." },
+    { "question": "Do cleanings hurt?", "answer": "Most cleanings are comfortable and pain-free. If your gums are sensitive or inflamed, you may feel mild discomfort that typically improves as your gum health improves over subsequent visits." },
+    { "question": "What is an oral cancer screening?", "answer": "An oral cancer screening is a quick, painless visual check of the soft tissues of your mouth, throat, and lips, performed during your exam. Early detection significantly improves outcomes." },
+    { "question": "What age should children start dental visits?", "answer": "We recommend a child's first dental visit around their first birthday or when their first tooth appears — whichever comes first. Early visits help establish healthy habits and prevent early childhood cavities." }
+  ],
+  "image": "/images/services/general-cleanings.webp",
+  "relatedSlugs": ["family-dentistry", "general-dentistry", "cosmetic-dentistry"],
+  "isInferred": false,
+  "isGenerated": false
+}

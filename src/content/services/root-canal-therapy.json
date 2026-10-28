@@ -1,0 +1,26 @@
+{
+  "slug": "root-canal-therapy",
+  "name": "Root Canal Therapy",
+  "category": "ENDODONTIC",
+  "teaser": "Comfortable, effective treatment to save your tooth and relieve your pain.",
+  "overview": [
+    "Root canal therapy is one of the most misunderstood dental procedures — and one of the most valuable. Rather than causing pain, a root canal relieves it. When the inner pulp of a tooth becomes infected or inflamed, root canal therapy removes the source of the problem and saves the tooth from extraction.",
+    "With modern techniques and local anesthesia, root canal therapy is far more comfortable than its reputation suggests. Most patients are relieved to find that the procedure feels similar to getting a standard filling — and the result is a healthy, preserved tooth."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Diagnosis & Comfort", "body": "We'll take X-rays to assess the extent of the infection and administer local anesthesia to ensure you're completely comfortable before we begin." },
+    { "step": 2, "title": "Pulp Removal & Cleaning", "body": "The infected pulp tissue is carefully removed from the inner canals of the tooth, which are then cleaned, shaped, and disinfected." },
+    { "step": 3, "title": "Sealing & Restoration", "body": "The canals are sealed with a biocompatible material, and a crown is typically placed to protect and restore the tooth's full function." }
+  ],
+  "faqs": [
+    { "question": "Is a root canal painful?", "answer": "No — the procedure is performed under local anesthesia and is designed to relieve pain, not cause it. Most patients are pleasantly surprised by how comfortable the experience is." },
+    { "question": "How do I know if I need a root canal?", "answer": "Common signs include severe toothache, prolonged sensitivity to hot or cold, darkening of the tooth, and swelling or tenderness in nearby gums. A dental exam and X-ray will confirm the diagnosis." },
+    { "question": "What happens after a root canal?", "answer": "You may experience mild soreness for a few days, which is normal and manageable with over-the-counter pain relievers. You'll return to have a crown placed to protect the treated tooth." },
+    { "question": "Can the tooth get infected again after a root canal?", "answer": "Root canal therapy has a high success rate. In rare cases, re-infection can occur, and retreatment may be needed. Proper follow-up care and a well-placed crown significantly reduce this risk." },
+    { "question": "Is it better to pull the tooth instead?", "answer": "Saving your natural tooth is almost always the preferred approach. Your natural tooth provides better biting function and helps maintain jaw bone density compared to extraction followed by a replacement option." }
+  ],
+  "image": "/images/services/root-canal-therapy.webp",
+  "relatedSlugs": ["general-cleanings", "dental-implants", "dental-fillings"],
+  "isInferred": false,
+  "isGenerated": true
+}

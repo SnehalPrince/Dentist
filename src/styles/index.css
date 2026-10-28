@@ -1,0 +1,246 @@
+/* ============================================================
+   src/styles/index.css
+   Topanga Dental Care — Design Tokens & Global Styles
+   All values from 03_DESIGN.md § 2 Design Tokens
+   ============================================================ */
+
+/* ── Google Fonts are loaded via index.html <head> ── */
+
+/* ── Design Tokens ─────────────────────────────────── */
+:root {
+  /* Brand Colors */
+  --color-brand-50:  #f0fdf9;
+  --color-brand-100: #ccfbef;
+  --color-brand-200: #99f6e0;
+  --color-brand-300: #5eead4;
+  --color-brand-400: #2dd4bf;
+  --color-brand-500: #14b8a6;   /* PRIMARY — main CTA, highlights, icon fills */
+  --color-brand-600: #0d9488;   /* Hover state for primary */
+  --color-brand-700: #0f766e;   /* Active / pressed */
+  --color-brand-800: #115e59;
+  --color-brand-900: #134e4a;
+
+  /* Neutral Colors */
+  --color-neutral-0:   #ffffff;
+  --color-neutral-50:  #f9fafb;   /* Page background (off-white) */
+  --color-neutral-100: #f3f4f6;   /* Card backgrounds, input fills */
+  --color-neutral-200: #e5e7eb;   /* Dividers, borders */
+  --color-neutral-300: #d1d5db;   /* Placeholder text, disabled borders */
+  --color-neutral-400: #9ca3af;   /* Muted decorative only — fails 4.5:1 on white */
+  --color-neutral-500: #6b7280;   /* Secondary body text (4.63:1 on white — passes) */
+  --color-neutral-600: #4b5563;   /* Body text */
+  --color-neutral-700: #374151;   /* Strong body text */
+  --color-neutral-800: #1f2937;   /* Heading text */
+  --color-neutral-900: #111827;   /* Display text, near-black */
+  --color-neutral-950: #0a0f14;   /* Dark section background */
+
+  /* Accent */
+  --color-accent-warm: #f5f0eb;  /* Warm beige for alternating sections */
+  --color-accent-star: #f59e0b;  /* Star rating yellow */
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+
+  /* Font Sizes */
+  --text-display-2xl: clamp(2.5rem, 5vw, 4.5rem);     /* 60-72px */
+  --text-display-xl:  clamp(2rem, 4vw, 3.75rem);       /* 48-60px */
+  --text-display-lg:  clamp(1.75rem, 3.5vw, 3rem);     /* 36-48px */
+  --text-display-md:  clamp(1.375rem, 2.5vw, 2.25rem); /* 28-36px */
+  --text-display-sm:  clamp(1.25rem, 2vw, 1.875rem);   /* 24-30px */
+  --text-body-xl:     1.25rem;    /* 20px */
+  --text-body-lg:     1.125rem;   /* 18px */
+  --text-body-md:     1rem;       /* 16px */
+  --text-body-sm:     0.875rem;   /* 14px */
+  --text-label-lg:    0.875rem;   /* 14px, uppercase, ls 0.1em */
+  --text-label-md:    0.75rem;    /* 12px, uppercase, ls 0.12em */
+
+  /* Line Heights */
+  --leading-display: 1.1;
+  --leading-body:    1.65;
+  --leading-relaxed: 1.75;
+
+  /* Spacing */
+  --space-1:  0.25rem;    /* 4px */
+  --space-2:  0.5rem;     /* 8px */
+  --space-3:  0.75rem;    /* 12px */
+  --space-4:  1rem;       /* 16px */
+  --space-6:  1.5rem;     /* 24px */
+  --space-8:  2rem;       /* 32px */
+  --space-12: 3rem;       /* 48px */
+  --space-16: 4rem;       /* 64px */
+  --space-20: 5rem;       /* 80px */
+  --space-24: 6rem;       /* 96px */
+  --space-32: 8rem;       /* 128px */
+
+  /* Border Radius */
+  --radius-none: 0;
+  --radius-sm:   0.25rem;   /* 4px */
+  --radius-md:   0.5rem;    /* 8px */
+  --radius-lg:   0.75rem;   /* 12px */
+  --radius-xl:   1rem;      /* 16px */
+  --radius-2xl:  1.25rem;   /* 20px */
+  --radius-3xl:  1.5rem;    /* 24px */
+  --radius-full: 9999px;    /* Pills, badges, avatar rings */
+
+  /* Shadows */
+  --shadow-xs:         0 1px 2px 0 rgba(0,0,0,0.05);
+  --shadow-sm:         0 1px 3px 0 rgba(0,0,0,0.08), 0 1px 2px -1px rgba(0,0,0,0.06);
+  --shadow-md:         0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+  --shadow-lg:         0 10px 15px -3px rgba(0,0,0,0.07), 0 4px 6px -4px rgba(0,0,0,0.04);
+  --shadow-xl:         0 20px 25px -5px rgba(0,0,0,0.08), 0 8px 10px -6px rgba(0,0,0,0.04);
+  --shadow-card:       0 2px 12px 0 rgba(0,0,0,0.06), 0 1px 3px 0 rgba(0,0,0,0.04);
+  --shadow-card-hover: 0 8px 30px 0 rgba(0,0,0,0.10), 0 2px 8px 0 rgba(0,0,0,0.06);
+
+  /* Container */
+  --container-max:         1440px;
+  --container-content-max: 1200px;
+  --container-padding-x:   clamp(1.25rem, 4vw, 3rem);
+
+  /* Z-index scale */
+  --z-header:  100;
+  --z-overlay: 190;
+  --z-drawer:  200;
+  --z-tooltip: 300;
+  --z-modal:   400;
+
+  /* Transitions */
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring:  cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+}
+
+/* ── Dark Section Token Override ── */
+.section--dark {
+  --color-text-primary:   var(--color-neutral-0);
+  --color-text-secondary: var(--color-neutral-400);
+  --color-bg:             var(--color-neutral-950);
+}
+
+/* ── Global Reset ──────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: auto; /* Lenis handles smooth scroll */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-body-md);
+  line-height: var(--leading-body);
+  color: var(--color-neutral-700);
+  background-color: var(--color-neutral-50);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--color-neutral-900);
+  line-height: var(--leading-display);
+  letter-spacing: -0.02em;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+p {
+  max-width: 74ch;
+  line-height: var(--leading-body);
+}
+
+/* ── Focus Styles (WCAG 2.1 AA) ─────────────────────── */
+:focus-visible {
+  outline: 3px solid var(--color-brand-500);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── Skip Navigation Link ────────────────────────────── */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: var(--color-brand-500);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  z-index: 9999;
+  font-weight: 600;
+  font-size: var(--text-body-md);
+  transition: top 0.2s var(--ease-default);
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* ── Container ────────────────────────────────────────── */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+.container--content {
+  max-width: var(--container-content-max);
+}
+
+/* ── Screen Reader Only ────────────────────────────────── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ── Section Vertical Rhythm ──────────────────────────── */
+.section-py {
+  padding-block: var(--space-16);
+}
+
+@media (min-width: 1024px) {
+  .section-py {
+    padding-block: var(--space-24);
+  }
+}
+
+/* ── Divider ─────────────────────────────────────────── */
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-neutral-200);
+}
+

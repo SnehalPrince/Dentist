@@ -1,0 +1,25 @@
+{
+  "slug": "dental-implants",
+  "name": "Dental Implants",
+  "category": "RESTORATIVE",
+  "teaser": "Permanent, natural-looking tooth replacement — restore your smile and your confidence with affordable implant care.",
+  "overview": [
+    "Dental implants are the gold standard for replacing a missing tooth. Unlike bridges or dentures, implants are anchored directly into your jawbone, providing a stable, permanent foundation that looks, feels, and functions like a natural tooth.",
+    "At Pleitez Dental Corp, we offer free consultations for dental implants and are proud to provide honest, ethical guidance — helping you understand exactly what your treatment involves before any commitment. Dr. Erik Pleitez's thorough diagnostic approach has earned the trust of patients who have been let down by other practices."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Free Implant Consultation", "body": "We'll evaluate your jawbone density, gum health, and overall oral health at no cost — giving you a complete picture of your treatment options and a personalized plan." },
+    { "step": 2, "title": "Implant Placement", "body": "A small titanium post is placed in the jawbone where the tooth is missing. Over the following weeks, the implant bonds with the bone in a natural process called osseointegration." },
+    { "step": 3, "title": "Crown Placement & Follow-up", "body": "Once the implant has fully integrated, a natural-looking dental crown is attached — restoring your smile to its full function and beautiful appearance." }
+  ],
+  "faqs": [
+    { "question": "Do you offer free consultations for implants?", "answer": "Yes! We offer free consultations for dental implants. Our doctors will thoroughly examine your mouth, take X-rays, and give you a complete, honest assessment of your situation and treatment options — with no pressure and no surprise fees." },
+    { "question": "Are dental implants permanent?", "answer": "With proper care, dental implants can last a lifetime. The implant post itself is a permanent fixture; the crown on top may eventually need replacement after 15–25 years of normal wear." },
+    { "question": "Who is a good candidate for dental implants?", "answer": "Most adults with good general health and sufficient jawbone density are candidates for implants. We'll assess your suitability during your free consultation." },
+    { "question": "Does the implant placement procedure hurt?", "answer": "The procedure is performed under local anesthesia, so you'll feel minimal discomfort during placement. Some soreness and swelling afterward is normal and typically resolves within a few days." }
+  ],
+  "image": "/images/services/dental-implants.webp",
+  "relatedSlugs": ["same-day-crowns", "cosmetic-dentistry", "general-dentistry"],
+  "isInferred": false,
+  "isGenerated": false
+}

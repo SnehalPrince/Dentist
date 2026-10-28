@@ -1,0 +1,25 @@
+{
+  "slug": "cosmetic-dentistry",
+  "name": "Cosmetic Dentistry",
+  "category": "COSMETIC",
+  "teaser": "Transform your smile with modern cosmetic treatments — veneers, whitening, and more.",
+  "overview": [
+    "A beautiful smile can transform your confidence and the way you present yourself to the world. At Pleitez Dental Corp, our cosmetic dentistry services are designed to give you the smile you've always wanted — using modern techniques and high-quality materials.",
+    "Whether you're looking to whiten stained teeth, correct chips and cracks, or completely redesign your smile, our doctors combine artistry with precision to deliver results that look and feel completely natural."
+  ],
+  "whatToExpect": [
+    { "step": 1, "title": "Smile Consultation", "body": "We begin with a consultation where we listen to your goals, examine your current smile, and discuss the best treatment options to achieve the look you want." },
+    { "step": 2, "title": "Custom Treatment Plan", "body": "Based on your goals and dental health, we design a personalized treatment plan that may include whitening, veneers, bonding, or a combination of procedures." },
+    { "step": 3, "title": "Your New Smile", "body": "We execute your plan with care and precision — keeping you comfortable and informed throughout — until your beautiful new smile is revealed." }
+  ],
+  "faqs": [
+    { "question": "What cosmetic services do you offer?", "answer": "We offer teeth whitening, dental veneers, tooth bonding, smile makeovers, and same-day crowns. During your consultation, we'll help determine which treatments will best meet your goals." },
+    { "question": "How long do cosmetic results last?", "answer": "It depends on the treatment. Professional whitening can last 1–3 years with proper care. Veneers and crowns can last 10–20 years or longer. Our team will guide you on maintaining your results." },
+    { "question": "Is cosmetic dentistry covered by insurance?", "answer": "Most cosmetic procedures are not covered by dental insurance. However, some treatments that also serve a restorative function may be partially covered. Call us at (818) 718-8433 for details." },
+    { "question": "Does teeth whitening work on all teeth?", "answer": "Professional whitening works well on natural tooth enamel. It is not effective on crowns, veneers, or bonding. We'll assess your teeth during your consultation and recommend the best approach." }
+  ],
+  "image": "/images/services/cosmetic-dentistry.webp",
+  "relatedSlugs": ["same-day-crowns", "dental-implants", "general-dentistry"],
+  "isInferred": false,
+  "isGenerated": false
+}
