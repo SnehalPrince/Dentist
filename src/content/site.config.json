@@ -1,22 +1,23 @@
 {
-  "name": "Topanga Dental Care",
-  "phone": "+18183478444",
-  "phoneDisplay": "(818) 347-8444",
-  "email": "info@topangadentalcare.com",
-  "_emailNote": "PLACEHOLDER — client must confirm real email before launch",
+  "name": "Pleitez Dental Corp",
+  "phone": "+18187188433",
+  "phoneDisplay": "(818) 718-8433",
+  "email": "pleitezdentalcorp@gmail.com",
   "address": {
-    "line1": "21839 Ventura Blvd",
-    "line2": "Floor 1, Gateway Plaza",
-    "city": "Woodland Hills",
+    "line1": "10244 Canoga Ave",
+    "line2": "Suite #2",
+    "city": "Chatsworth",
     "state": "CA",
-    "postalCode": "91364",
+    "postalCode": "91311",
     "country": "US"
   },
-  "rating": 4.6,
-  "reviewCount": 50,
-  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.0!2d-118.6!3d34.17!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s21839+Ventura+Blvd+Woodland+Hills+CA+91364!5e0!3m2!1sen!2sus!4v1",
-  "googleMapsUrl": "https://maps.google.com/?q=21839+Ventura+Blvd+Woodland+Hills+CA+91364",
+  "rating": 4.9,
+  "reviewCount": 109,
+  "foundedYear": 2001,
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.0!2d-118.5978!3d34.2505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29a3b3b3b3b3b%3A0x0!2s10244+Canoga+Ave+Chatsworth+CA+91311!5e0!3m2!1sen!2sus!4v1",
+  "googleMapsUrl": "https://maps.google.com/?q=10244+Canoga+Ave+Suite+2+Chatsworth+CA+91311",
   "social": {
-    "_note": "PLACEHOLDER — omit social icons until client supplies real handles"
+    "facebook": "https://www.facebook.com/pleitezdental/",
+    "instagram": "https://www.instagram.com/pleitezdentalcorp/"
   }
 }

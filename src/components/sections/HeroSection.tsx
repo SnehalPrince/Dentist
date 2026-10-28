@@ -151,7 +151,7 @@ export function HeroSection() {
               }}
             >
               <Button variant="primary" size="xl" href="/book-an-appointment" id="hero-book-btn">
-                Book an Appointment
+                Schedule Your Visit Today
               </Button>
               <Button
                 variant="ghost"
@@ -161,6 +161,18 @@ export function HeroSection() {
                 <Phone size={18} aria-hidden="true" />
                 {siteConfig.phoneDisplay}
               </Button>
+            </motion.div>
+            
+            <motion.div
+              variants={getVariants(fadeUp, reduced)}
+              style={{
+                marginTop: 'var(--space-2)',
+                fontSize: 'var(--text-body-sm)',
+                color: 'var(--color-neutral-500)',
+                fontWeight: 500,
+              }}
+            >
+              Serving Chatsworth Families Since 2001
             </motion.div>
 
             {/* Social proof micro-row */}
@@ -176,16 +188,21 @@ export function HeroSection() {
             >
               <span
                 style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: 'var(--text-body-sm)', color: 'var(--color-neutral-500)', fontWeight: 500 }}
-                aria-label={`${siteConfig.rating} star rating from ${siteConfig.reviewCount}+ Google reviews`}
+                aria-label={`${siteConfig.rating} star Google Rating`}
               >
                 <Star size={14} fill="var(--color-accent-star)" color="var(--color-accent-star)" aria-hidden="true" />
-                {siteConfig.rating} ({siteConfig.reviewCount}+ reviews)
+                {siteConfig.rating} Google Rating
+              </span>
+              <span aria-hidden="true" style={{ color: 'var(--color-neutral-200)' }}>|</span>
+              <span style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-neutral-500)', fontWeight: 500 }}>
+                {siteConfig.reviewCount}+ Happy Patients
               </span>
               <span aria-hidden="true" style={{ color: 'var(--color-neutral-200)' }}>|</span>
               <OpenNowBadge hours={hoursData} />
               <span aria-hidden="true" style={{ color: 'var(--color-neutral-200)' }}>|</span>
-              <span style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-neutral-500)' }}>
-                Canoga Ave, Chatsworth
+              <span style={{ fontSize: 'var(--text-body-sm)', color: 'var(--color-neutral-500)', display: 'flex', flexDirection: 'column', lineHeight: 1.4 }}>
+                <span>{siteConfig.address.line1} {siteConfig.address.line2}</span>
+                <span>{siteConfig.address.city}, {siteConfig.address.state} {siteConfig.address.postalCode}</span>
               </span>
             </motion.div>
           </motion.div>
