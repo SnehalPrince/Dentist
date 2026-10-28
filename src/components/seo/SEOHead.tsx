@@ -9,9 +9,9 @@ interface SEOHeadProps {
   noIndex?: boolean
 }
 
-const SITE_NAME = 'Topanga Dental Care'
-const BASE_URL = 'https://topangadentalcare.com'
-const OG_IMAGE = `${BASE_URL}/og-image.png`
+const SITE_NAME = 'Pleitez Dental Corp'
+const BASE_URL = 'https://pleitezdentalcorp.com'
+const OG_IMAGE = `${BASE_URL}/hero.png`
 
 export function SEOHead({
   title,
